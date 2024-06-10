@@ -23,7 +23,6 @@ public:
     bool IsCellOutside(int row, int column);
     bool IsCellEmpty(int row, int column);
     int ClearFullRows();
-    void Resize(int newNumRows, int newNumCols);
     int GetNumRows();
     int GetNumCols();
 

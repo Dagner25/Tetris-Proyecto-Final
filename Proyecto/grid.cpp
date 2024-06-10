@@ -96,43 +96,6 @@ int Grid::ClearFullRows()
     return completed;
 }
 
-void Grid::Resize(int newNumRows, int newNumCols) {
-    // Crear una nueva matriz
-    int **newGrid = new int*[newNumRows];
-    for (int i = 0; i < newNumRows; ++i) {
-        newGrid[i] = new int[newNumCols];
-    }
-
-    // Copiar los datos existentes a la nueva matriz
-    int minRows = std::min(numRows, newNumRows);
-    int minCols = std::min(numCols, newNumCols);
-    for (int i = 0; i < minRows; ++i) {
-        for (int j = 0; j < minCols; ++j) {
-            newGrid[i][j] = grid[i][j];
-        }
-    }
-
-    // Inicializar las nuevas celdas a 0
-    for (int i = 0; i < newNumRows; ++i) {
-        for (int j = 0; j < newNumCols; ++j) {
-            if (i >= numRows || j >= numCols) {
-                newGrid[i][j] = 0;
-            }
-        }
-    }
-
-    // Liberar la memoria de la antigua matriz
-    for (int i = 0; i < numRows; ++i) {
-        delete[] grid[i];
-    }
-    delete[] grid;
-
-    // Actualizar el puntero y las dimensiones
-    grid = newGrid;
-    numRows = newNumRows;
-    numCols = newNumCols;
-}
-
 int Grid::GetNumRows(){
     return numRows;
 }
