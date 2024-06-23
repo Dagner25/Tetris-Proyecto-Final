@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890382BE2C054F16008C5489 /* eventTriger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 890382BD2C054F16008C5489 /* eventTriger.cpp */; };
+		890382C02C0BC2AE008C5489 /* constants.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 890382BF2C0BC2AE008C5489 /* constants.hpp */; };
+		89F37D292BF94CCB000D705C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F37D282BF94CCB000D705C /* main.cpp */; };
+		89F37D312BF96A80000D705C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F37D302BF96A80000D705C /* CoreVideo.framework */; };
+		89F37D332BF96A8D000D705C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F37D322BF96A8D000D705C /* IOKit.framework */; };
+		89F37D352BF96A97000D705C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F37D342BF96A97000D705C /* Cocoa.framework */; };
+		89F37D372BF96AA0000D705C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F37D362BF96AA0000D705C /* OpenGL.framework */; };
+		89F37D422C0260F0000D705C /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F37D402C0260F0000D705C /* grid.cpp */; };
+		89F37D452C027522000D705C /* colors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F37D432C027522000D705C /* colors.cpp */; };
+		89F37D482C028F81000D705C /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F37D462C028F81000D705C /* position.cpp */; };
+		89F37D4B2C029182000D705C /* block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F37D492C029182000D705C /* block.cpp */; };
+		89F37D4E2C029670000D705C /* blocks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F37D4C2C029670000D705C /* blocks.cpp */; };
+		89F37D512C02AE6F000D705C /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F37D4F2C02AE6F000D705C /* game.cpp */; };
+		9003EDD92C0ED2C5003F06BE /* libraylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9003EDD82C0ED2C5003F06BE /* libraylib.a */; };
+		9003EDDB2C0ED2F9003F06BE /* raylib.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 9003EDDA2C0ED2F8003F06BE /* raylib.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89F37D232BF94CCB000D705C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		890382BB2C054E8D008C5489 /* eventTriger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = eventTriger.hpp; sourceTree = "<group>"; };
+		890382BD2C054F16008C5489 /* eventTriger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = eventTriger.cpp; sourceTree = "<group>"; };
+		890382BF2C0BC2AE008C5489 /* constants.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = constants.hpp; sourceTree = "<group>"; };
+		89F37D252BF94CCB000D705C /* Tetris */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tetris; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F37D282BF94CCB000D705C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		89F37D302BF96A80000D705C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		89F37D322BF96A8D000D705C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		89F37D342BF96A97000D705C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		89F37D362BF96AA0000D705C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		89F37D402C0260F0000D705C /* grid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = grid.cpp; sourceTree = "<group>"; };
+		89F37D412C0260F0000D705C /* grid.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = grid.hpp; sourceTree = "<group>"; };
+		89F37D432C027522000D705C /* colors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = colors.cpp; sourceTree = "<group>"; };
+		89F37D442C027522000D705C /* colors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = colors.hpp; sourceTree = "<group>"; };
+		89F37D462C028F81000D705C /* position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = position.cpp; sourceTree = "<group>"; };
+		89F37D472C028F81000D705C /* position.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = position.hpp; sourceTree = "<group>"; };
+		89F37D492C029182000D705C /* block.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = block.cpp; sourceTree = "<group>"; };
+		89F37D4A2C029182000D705C /* block.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = block.hpp; sourceTree = "<group>"; };
+		89F37D4C2C029670000D705C /* blocks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = blocks.cpp; sourceTree = "<group>"; };
+		89F37D4F2C02AE6F000D705C /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		89F37D502C02AE6F000D705C /* game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = game.hpp; sourceTree = "<group>"; };
+		9003EDD82C0ED2C5003F06BE /* libraylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libraylib.a; path = ../../../../../../../opt/homebrew/Cellar/raylib/5.0/lib/libraylib.a; sourceTree = "<group>"; };
+		9003EDDA2C0ED2F8003F06BE /* raylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = raylib.h; path = ../../../../../../../opt/homebrew/Cellar/raylib/5.0/include/raylib.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89F37D222BF94CCB000D705C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9003EDDB2C0ED2F9003F06BE /* raylib.h in Frameworks */,
+				9003EDD92C0ED2C5003F06BE /* libraylib.a in Frameworks */,
+				89F37D372BF96AA0000D705C /* OpenGL.framework in Frameworks */,
+				89F37D352BF96A97000D705C /* Cocoa.framework in Frameworks */,
+				89F37D332BF96A8D000D705C /* IOKit.framework in Frameworks */,
+				89F37D312BF96A80000D705C /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89F37D1C2BF94CCB000D705C = {
+			isa = PBXGroup;
+			children = (
+				89F37D272BF94CCB000D705C /* Tetris */,
+				89F37D262BF94CCB000D705C /* Products */,
+				89F37D2F2BF96A80000D705C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89F37D262BF94CCB000D705C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89F37D252BF94CCB000D705C /* Tetris */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89F37D272BF94CCB000D705C /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				89F37D3F2C025CF2000D705C /* scr */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		89F37D2F2BF96A80000D705C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9003EDDA2C0ED2F8003F06BE /* raylib.h */,
+				9003EDD82C0ED2C5003F06BE /* libraylib.a */,
+				89F37D362BF96AA0000D705C /* OpenGL.framework */,
+				89F37D342BF96A97000D705C /* Cocoa.framework */,
+				89F37D322BF96A8D000D705C /* IOKit.framework */,
+				89F37D302BF96A80000D705C /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89F37D3F2C025CF2000D705C /* scr */ = {
+			isa = PBXGroup;
+			children = (
+				89F37D282BF94CCB000D705C /* main.cpp */,
+				890382BF2C0BC2AE008C5489 /* constants.hpp */,
+				89F37D4C2C029670000D705C /* blocks.cpp */,
+				890382BB2C054E8D008C5489 /* eventTriger.hpp */,
+				890382BD2C054F16008C5489 /* eventTriger.cpp */,
+				89F37D412C0260F0000D705C /* grid.hpp */,
+				89F37D402C0260F0000D705C /* grid.cpp */,
+				89F37D442C027522000D705C /* colors.hpp */,
+				89F37D432C027522000D705C /* colors.cpp */,
+				89F37D472C028F81000D705C /* position.hpp */,
+				89F37D462C028F81000D705C /* position.cpp */,
+				89F37D4A2C029182000D705C /* block.hpp */,
+				89F37D492C029182000D705C /* block.cpp */,
+				89F37D502C02AE6F000D705C /* game.hpp */,
+				89F37D4F2C02AE6F000D705C /* game.cpp */,
+			);
+			path = scr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89F37D242BF94CCB000D705C /* Tetris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F37D2C2BF94CCB000D705C /* Build configuration list for PBXNativeTarget "Tetris" */;
+			buildPhases = (
+				89F37D212BF94CCB000D705C /* Sources */,
+				89F37D222BF94CCB000D705C /* Frameworks */,
+				89F37D232BF94CCB000D705C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tetris;
+			productName = Tetris;
+			productReference = 89F37D252BF94CCB000D705C /* Tetris */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89F37D1D2BF94CCB000D705C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					89F37D242BF94CCB000D705C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 89F37D202BF94CCB000D705C /* Build configuration list for PBXProject "Tetris" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89F37D1C2BF94CCB000D705C;
+			productRefGroup = 89F37D262BF94CCB000D705C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89F37D242BF94CCB000D705C /* Tetris */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89F37D212BF94CCB000D705C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F37D452C027522000D705C /* colors.cpp in Sources */,
+				89F37D292BF94CCB000D705C /* main.cpp in Sources */,
+				89F37D512C02AE6F000D705C /* game.cpp in Sources */,
+				89F37D482C028F81000D705C /* position.cpp in Sources */,
+				89F37D422C0260F0000D705C /* grid.cpp in Sources */,
+				890382C02C0BC2AE008C5489 /* constants.hpp in Sources */,
+				89F37D4B2C029182000D705C /* block.cpp in Sources */,
+				89F37D4E2C029670000D705C /* blocks.cpp in Sources */,
+				890382BE2C054F16008C5489 /* eventTriger.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89F37D2A2BF94CCB000D705C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89F37D2B2BF94CCB000D705C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89F37D2D2BF94CCB000D705C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/raylib/5.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89F37D2E2BF94CCB000D705C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/raylib/5.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89F37D202BF94CCB000D705C /* Build configuration list for PBXProject "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F37D2A2BF94CCB000D705C /* Debug */,
+				89F37D2B2BF94CCB000D705C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89F37D2C2BF94CCB000D705C /* Build configuration list for PBXNativeTarget "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F37D2D2BF94CCB000D705C /* Debug */,
+				89F37D2E2BF94CCB000D705C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89F37D1D2BF94CCB000D705C /* Project object */;
+}
